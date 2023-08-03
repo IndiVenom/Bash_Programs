@@ -1,0 +1,3 @@
+#While working on textual data, there are few types which I have dealed with. The first type was UTF-8, this the best file type as working on this type is realy easy and every line of code works properly on this formate.
+#Seciund form is UTF-16LE, it needed to be converted, so for convertion we can use "ICONV".
+Code: iconv -f UTF-16LE -t UTF-8 peresent_file.txt >  new_file.txt
